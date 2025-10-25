@@ -5,7 +5,7 @@ A full-stack **Cricket Statistics Management** application built using **React**
 
 ---
 
-## 📚 Overview 
+## 📚 Overview  
 
 This system enables users (e.g., admins or analysts) to:
 
