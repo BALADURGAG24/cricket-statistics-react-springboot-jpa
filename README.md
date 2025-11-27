@@ -10,7 +10,7 @@ A full-stack **Cricket Statistics Management** application built using **React**
 This system enables users (e.g., admins or analysts) to:
  
 - Add, update, and delete cricket players and their stats  
-- View all players and filter based on criteria
+- View all players and filter based on criteria 
 - Persist data using a MySQL database 
 - Interact via a clean, responsive UI    
 
