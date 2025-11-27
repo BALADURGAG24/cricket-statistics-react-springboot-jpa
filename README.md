@@ -14,7 +14,7 @@ This system enables users (e.g., admins or analysts) to:
 - Persist data using a MySQL database 
 - Interact via a clean, responsive UI    
 
----
+--- 
 
 ## 🛠️ Tech Stack
 
