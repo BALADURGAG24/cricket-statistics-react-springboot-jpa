@@ -46,23 +46,61 @@ This system enables users (e.g., admins or analysts) to:
 ---
 
 ## 📁 Project Structure
-
-```plaintext
-cricket-stats-app/
-├── backend/ (Spring Boot)
-│   ├── src/main/java/com/example/cricketstats/
-│   │   ├── controller/
-│   │   ├── model/
-│   │   ├── repository/
-│   │   └── service/
-│   ├── application.properties
-│   └── CricketStatsApplication.java
-├── frontend/ (React)
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── App.js
-│   ├── public/
-│   └── package.json
-
+```
+Directory structure:
+└── baladurgag24-cricket-statistics-react-springboot-jpa/
+    ├── README.md
+    ├── LICENSE.txt
+    ├── Backend/
+    │   ├── mvnw
+    │   ├── mvnw.cmd
+    │   ├── pom.xml
+    │   └── src/
+    │       ├── main/
+    │       │   ├── java/
+    │       │   │   └── com/
+    │       │   │       └── example/
+    │       │   │           └── demo/
+    │       │   │               ├── Controller/
+    │       │   │               │   └── CricController.java
+    │       │   │               ├── Demo/
+    │       │   │               │   └── CricinfoApplication.java
+    │       │   │               ├── Exception/
+    │       │   │               │   └── CricinfoNotFoundException.java
+    │       │   │               ├── Model/
+    │       │   │               │   └── Cricinfo.java
+    │       │   │               ├── Repository/
+    │       │   │               │   └── CricinfoRepository.java
+    │       │   │               └── Service/
+    │       │   │                   └── CricService.java
+    │       │   └── resources/
+    │       │       └── application.properties
+    │       └── test/
+    │           └── java/
+    │               └── com/
+    │                   └── example/
+    │                       └── demo/
+    │                           └── CricinfoApplicationTests.java
+    └── Frontend/
+        ├── package.json
+        ├── public/
+        │   └── index.html
+        └── src/
+            ├── App.css
+            ├── App.js
+            ├── index.css
+            ├── index.js
+            ├── serviceWorker.js
+            ├── setupTests.js
+            ├── components/
+            │   ├── CreateCricinfoComponent.jsx
+            │   ├── FooterComponent.jsx
+            │   ├── HeaderComponent.js
+            │   ├── ListCricinfoComponent.jsx
+            │   ├── Login.jsx
+            │   ├── Register.jsx
+            │   ├── UpdateCricinfoComponent.jsx
+            │   └── ViewCricinfoComponent.jsx
+            └── services/
+                └── CricinfoService.js
+```
